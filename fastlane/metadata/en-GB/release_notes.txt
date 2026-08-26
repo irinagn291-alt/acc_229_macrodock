@@ -1,0 +1,12 @@
+Initial release of MacroDock.
+
+• First-watch onboarding with READ THE HOLD, SEARCH OR SCAN, SET THE TIDE, and HOLD TARGETS
+• Harbour home with Today's Tide, meal slot strip, and 3D hold map with tappable crates
+• Quay Search by product name with Open Food Facts and local shelf fallback
+• Cargo Hatch live barcode scanning with torch and manual code entry
+• Lading detail with per-100 g macros, portion grams, and Berth Assignment
+• Manifest food log grouped by watch slot with day navigation
+• Voyage Plan for the next 14 voyage days with Eat now conversion
+• Wish Pennants shopping list
+• Hold Stock pantry inventory with restock list and low-stock alerts
+• Tide Goals for daily targets, data reset, and contact page
