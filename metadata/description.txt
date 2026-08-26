@@ -1,0 +1,15 @@
+MacroDock is a personal food log for tracking daily energy and macros. It looks up packaged foods through Open Food Facts and keeps your log, meal plan, wish list, and pantry stock on the device.
+
+• Today's Tide shows kcal, protein, carbs, and fat against your Tide Goals for the day
+• Four watch slots: Dawn Watch, Forenoon Watch, Dog Watch, and Ship's Biscuit
+• Quay Search finds products by name online or from the bundled local shelf
+• Cargo Hatch scans barcodes with the camera, torch, or manual code entry
+• Lading shows per-100 g nutrition, portion grams, and Berth Assignment to a slot
+• Manifest lists eaten cargo by day and slot, with swipe to delete
+• Voyage Plan schedules cargo on the next 14 days and converts entries with Eat now
+• Wish Pennants saves products you intend to buy
+• Hold Stock tracks pantry grams on hand; logging cargo lowers stock and flags low crates on the harbour map
+• Tide Goals edits daily targets, clears all data, and replays first-watch onboarding
+• First-watch onboarding sets your starting targets on first launch
+
+MacroDock is a personal food log, not medical advice.

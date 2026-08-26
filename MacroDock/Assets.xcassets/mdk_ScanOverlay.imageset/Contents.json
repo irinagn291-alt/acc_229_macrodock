@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "filename": "mdk_ScanOverlay.png",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

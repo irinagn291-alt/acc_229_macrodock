@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99394F4A6325DB82FEE5E07F /* ContactWebSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46128F3B39A37C444A9E0A8 /* ContactWebSheet.swift */; };
+		E18637681E66BF869721402F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E38923242EE9B7DD59738E /* AppDelegate.swift */; };
+		227AEF0943EB8F5E30972AC6 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF4207E3D9C7A92502091D /* APIConfig.swift */; };
+		07EAC26DEE072A64964E5B3D /* MacroDockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06500B2F9C6ADE2ED0E92C4D /* MacroDockApp.swift */; };
+		0D2AA16C5E82B83A7F5945BE /* FirstWatchOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570027867E78B4D4226BAA24 /* FirstWatchOnboarding.swift */; };
+		0DA225380561E37E147FD1AB /* HarborSceneCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EF7955FD7C66A30BE18C8D /* HarborSceneCanvas.swift */; };
+		2C3D582E96FDA210F775D147 /* HoldInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD583B90C15FCD94B9FFBB2 /* HoldInventory.swift */; };
+		39BA47ED32640D677CA300F4 /* PortionRigging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB67E8CFCE1D927FDE4538 /* PortionRigging.swift */; };
+		40A81A0FB3D76010837302D1 /* MacroDockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C48CC97E4550718D7A77E /* MacroDockTests.swift */; };
+		46D35A7A34BD29674B862505 /* LocalHoldShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A244888ECCE194E28E64EBF /* LocalHoldShelf.swift */; };
+		62ED23E52851DD2CD2AD2426 /* TideDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A35ED3D98DAB273B3B94581 /* TideDesign.swift */; };
+		6832A3B5237647C4E58C66B9 /* QuaySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BA3B6D4C2431A6C253B105 /* QuaySearch.swift */; };
+		68D9259C64D3499809F2ACEF /* HatchCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8336277FA45EA44DBF9DEA4 /* HatchCode.swift */; };
+		6B5743D6D0B65D2448357F60 /* QuayGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C01EE54460F70F71BBBE45D /* QuayGoals.swift */; };
+		7084E7C84C183ACFB5AC6690 /* HarborRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0071542EBE5316375C8657D5 /* HarborRootView.swift */; };
+		7F2A3205EDE5EC92287F716E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E96C98294AE89BC039BC7ED /* Assets.xcassets */; };
+		82AA620C52FE13B4CB5ECB74 /* VoyagePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6249F8B36A478AA3A21C8A9 /* VoyagePlan.swift */; };
+		8B70AB8F2A2906F8876A18B9 /* DockMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DE270AF5F85ACBC0D34158 /* DockMaster.swift */; };
+		8E7719A255560B7FE10CB4AF /* HarborViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233028F4699610AFF1E85C5 /* HarborViewModel.swift */; };
+		A503052F16E9702EFCF9EE8F /* WishLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9739B84B176AF06EC08E6 /* WishLedger.swift */; };
+		A5E919D5DC7347685AA81728 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = DF2DF66BD8DCAAB2F41148F7 /* Algorithms */; };
+		A835C68645FF35A1E65ED3F7 /* HarborStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27EA117F35EE259CB4BF863 /* HarborStore.swift */; };
+		B4191C5ABFEDA33FDF025177 /* ManifestLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376AE5ECF18CFF3BE06E737 /* ManifestLog.swift */; };
+		BA297276200B74FFAD1CED04 /* KeelSQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4B70857B163207D127939 /* KeelSQLite.swift */; };
+		C6390C1C3157718FC79EB37B /* CargoLading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEFEEE7E5C37184BDAC562D /* CargoLading.swift */; };
+		C684019A1B68ED9796C96DFC /* OpenSeaClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D232250F4399B59BA418212 /* OpenSeaClient.swift */; };
+		C97991FAB4AE5303B2B5A1DF /* VoyageDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A6C6703B7C1377B78F2E4 /* VoyageDay.swift */; };
+		CFBBA33A6FC546CE4BAAB317 /* HatchScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78219497AFCA965CC2B5953 /* HatchScanner.swift */; };
+		D343DD4C2E1F34D8F8322807 /* CargoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EF14AE7B344B67ED6183F /* CargoModels.swift */; };
+		F2917513683521477FA4E06E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E85FC6A071B1F171645DC84E /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5989B438710179708476DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA057A95248A074D6E407799 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2D4A7EE0A7EF9284376373C;
+			remoteInfo = MacroDock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46128F3B39A37C444A9E0A8 /* ContactWebSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWebSheet.swift; sourceTree = "<group>"; };
+		20E38923242EE9B7DD59738E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCEF4207E3D9C7A92502091D /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		0071542EBE5316375C8657D5 /* HarborRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborRootView.swift; sourceTree = "<group>"; };
+		06500B2F9C6ADE2ED0E92C4D /* MacroDockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroDockApp.swift; sourceTree = "<group>"; };
+		0A35ED3D98DAB273B3B94581 /* TideDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideDesign.swift; sourceTree = "<group>"; };
+		0D232250F4399B59BA418212 /* OpenSeaClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSeaClient.swift; sourceTree = "<group>"; };
+		143EF14AE7B344B67ED6183F /* CargoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoModels.swift; sourceTree = "<group>"; };
+		2C01EE54460F70F71BBBE45D /* QuayGoals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuayGoals.swift; sourceTree = "<group>"; };
+		30AB67E8CFCE1D927FDE4538 /* PortionRigging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortionRigging.swift; sourceTree = "<group>"; };
+		4233028F4699610AFF1E85C5 /* HarborViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborViewModel.swift; sourceTree = "<group>"; };
+		43EF7955FD7C66A30BE18C8D /* HarborSceneCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborSceneCanvas.swift; sourceTree = "<group>"; };
+		559528D889D27D077038E253 /* MacroDockTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MacroDockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		570027867E78B4D4226BAA24 /* FirstWatchOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWatchOnboarding.swift; sourceTree = "<group>"; };
+		5CD4B70857B163207D127939 /* KeelSQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeelSQLite.swift; sourceTree = "<group>"; };
+		668434E3DAC7801F41632EDA /* MacroDock.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MacroDock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		786A6C6703B7C1377B78F2E4 /* VoyageDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageDay.swift; sourceTree = "<group>"; };
+		7E96C98294AE89BC039BC7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A244888ECCE194E28E64EBF /* LocalHoldShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalHoldShelf.swift; sourceTree = "<group>"; };
+		8DEFEEE7E5C37184BDAC562D /* CargoLading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoLading.swift; sourceTree = "<group>"; };
+		A27EA117F35EE259CB4BF863 /* HarborStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborStore.swift; sourceTree = "<group>"; };
+		A92C48CC97E4550718D7A77E /* MacroDockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroDockTests.swift; sourceTree = "<group>"; };
+		BBD583B90C15FCD94B9FFBB2 /* HoldInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldInventory.swift; sourceTree = "<group>"; };
+		C78219497AFCA965CC2B5953 /* HatchScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatchScanner.swift; sourceTree = "<group>"; };
+		D376AE5ECF18CFF3BE06E737 /* ManifestLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestLog.swift; sourceTree = "<group>"; };
+		D6249F8B36A478AA3A21C8A9 /* VoyagePlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyagePlan.swift; sourceTree = "<group>"; };
+		E6DE270AF5F85ACBC0D34158 /* DockMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockMaster.swift; sourceTree = "<group>"; };
+		E85FC6A071B1F171645DC84E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		ECA9739B84B176AF06EC08E6 /* WishLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishLedger.swift; sourceTree = "<group>"; };
+		F8336277FA45EA44DBF9DEA4 /* HatchCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatchCode.swift; sourceTree = "<group>"; };
+		F9BA3B6D4C2431A6C253B105 /* QuaySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuaySearch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F634624FEFF8EC6E55D22C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E919D5DC7347685AA81728 /* Algorithms in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129A8F7E6F5303B45A2C3C30 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				143EF14AE7B344B67ED6183F /* CargoModels.swift */,
+				A27EA117F35EE259CB4BF863 /* HarborStore.swift */,
+				F8336277FA45EA44DBF9DEA4 /* HatchCode.swift */,
+				5CD4B70857B163207D127939 /* KeelSQLite.swift */,
+				8A244888ECCE194E28E64EBF /* LocalHoldShelf.swift */,
+				0D232250F4399B59BA418212 /* OpenSeaClient.swift */,
+				30AB67E8CFCE1D927FDE4538 /* PortionRigging.swift */,
+				0A35ED3D98DAB273B3B94581 /* TideDesign.swift */,
+				786A6C6703B7C1377B78F2E4 /* VoyageDay.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		214316AE574D8E60A80FEF5C /* MacroDock */ = {
+			isa = PBXGroup;
+			children = (
+				7E96C98294AE89BC039BC7ED /* Assets.xcassets */,
+				06500B2F9C6ADE2ED0E92C4D /* MacroDockApp.swift */,
+				B46128F3B39A37C444A9E0A8 /* ContactWebSheet.swift */,
+				20E38923242EE9B7DD59738E /* AppDelegate.swift */,
+				DCEF4207E3D9C7A92502091D /* APIConfig.swift */,
+				E85FC6A071B1F171645DC84E /* PrivacyInfo.xcprivacy */,
+				129A8F7E6F5303B45A2C3C30 /* Foundation */,
+				55FAC63F9644A183F3A27583 /* Slices */,
+			);
+			path = MacroDock;
+			sourceTree = "<group>";
+		};
+		45A89F94EB1BD7741B78364B /* HarborSlice */ = {
+			isa = PBXGroup;
+			children = (
+				E6DE270AF5F85ACBC0D34158 /* DockMaster.swift */,
+				570027867E78B4D4226BAA24 /* FirstWatchOnboarding.swift */,
+				0071542EBE5316375C8657D5 /* HarborRootView.swift */,
+				43EF7955FD7C66A30BE18C8D /* HarborSceneCanvas.swift */,
+				4233028F4699610AFF1E85C5 /* HarborViewModel.swift */,
+				2C01EE54460F70F71BBBE45D /* QuayGoals.swift */,
+			);
+			path = HarborSlice;
+			sourceTree = "<group>";
+		};
+		55FAC63F9644A183F3A27583 /* Slices */ = {
+			isa = PBXGroup;
+			children = (
+				8F2E7CA7D4E1CCDAF5EA5383 /* BerthSlice */,
+				45A89F94EB1BD7741B78364B /* HarborSlice */,
+				BCDDE1B05DC62F17F541BF59 /* ManifestSlice */,
+				AECAD87D22D10EBA9788FBEA /* StockSlice */,
+			);
+			path = Slices;
+			sourceTree = "<group>";
+		};
+		6D4C75D17ED43A38426B4487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668434E3DAC7801F41632EDA /* MacroDock.app */,
+				559528D889D27D077038E253 /* MacroDockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F2E7CA7D4E1CCDAF5EA5383 /* BerthSlice */ = {
+			isa = PBXGroup;
+			children = (
+				D6249F8B36A478AA3A21C8A9 /* VoyagePlan.swift */,
+			);
+			path = BerthSlice;
+			sourceTree = "<group>";
+		};
+		AECAD87D22D10EBA9788FBEA /* StockSlice */ = {
+			isa = PBXGroup;
+			children = (
+				BBD583B90C15FCD94B9FFBB2 /* HoldInventory.swift */,
+			);
+			path = StockSlice;
+			sourceTree = "<group>";
+		};
+		BCDDE1B05DC62F17F541BF59 /* ManifestSlice */ = {
+			isa = PBXGroup;
+			children = (
+				8DEFEEE7E5C37184BDAC562D /* CargoLading.swift */,
+				C78219497AFCA965CC2B5953 /* HatchScanner.swift */,
+				D376AE5ECF18CFF3BE06E737 /* ManifestLog.swift */,
+				F9BA3B6D4C2431A6C253B105 /* QuaySearch.swift */,
+				ECA9739B84B176AF06EC08E6 /* WishLedger.swift */,
+			);
+			path = ManifestSlice;
+			sourceTree = "<group>";
+		};
+		E13D7AC3F95209BC27361BAC = {
+			isa = PBXGroup;
+			children = (
+				214316AE574D8E60A80FEF5C /* MacroDock */,
+				FF4B8D801547728B37ABD77A /* MacroDockTests */,
+				6D4C75D17ED43A38426B4487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4B8D801547728B37ABD77A /* MacroDockTests */ = {
+			isa = PBXGroup;
+			children = (
+				A92C48CC97E4550718D7A77E /* MacroDockTests.swift */,
+			);
+			path = MacroDockTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54BE39A73F8490C9E467D5C8 /* MacroDockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20BB49F6E69F16A4234632D /* Build configuration list for PBXNativeTarget "MacroDockTests" */;
+			buildPhases = (
+				7DC494612C4CBBD379B6F6FC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00270CE897DF3BB1C0C4FD23 /* PBXTargetDependency */,
+			);
+			name = MacroDockTests;
+			packageProductDependencies = (
+			);
+			productName = MacroDockTests;
+			productReference = 559528D889D27D077038E253 /* MacroDockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2D4A7EE0A7EF9284376373C /* MacroDock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03E86F352B763B43A93D887 /* Build configuration list for PBXNativeTarget "MacroDock" */;
+			buildPhases = (
+				D1E1F9F2B261217DD58B31F1 /* Sources */,
+				93A78AB8822410E9535F0D94 /* Resources */,
+				F634624FEFF8EC6E55D22C74 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacroDock;
+			packageProductDependencies = (
+				8431146CE15A5657EDBAE7A6 /* Alamofire */,
+				DF2DF66BD8DCAAB2F41148F7 /* Algorithms */,
+			);
+			productName = MacroDock;
+			productReference = 668434E3DAC7801F41632EDA /* MacroDock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA057A95248A074D6E407799 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F2D4A7EE0A7EF9284376373C = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2C506FB3BC41C2FD3F08780 /* Build configuration list for PBXProject "MacroDock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E13D7AC3F95209BC27361BAC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9DAB874042AA1724F225DA2A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7EB7C51126725E400BCC6AC3 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6D4C75D17ED43A38426B4487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D4A7EE0A7EF9284376373C /* MacroDock */,
+				54BE39A73F8490C9E467D5C8 /* MacroDockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93A78AB8822410E9535F0D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2A3205EDE5EC92287F716E /* Assets.xcassets in Resources */,
+				F2917513683521477FA4E06E /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DC494612C4CBBD379B6F6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A81A0FB3D76010837302D1 /* MacroDockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E1F9F2B261217DD58B31F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99394F4A6325DB82FEE5E07F /* ContactWebSheet.swift in Sources */,
+				E18637681E66BF869721402F /* AppDelegate.swift in Sources */,
+				227AEF0943EB8F5E30972AC6 /* APIConfig.swift in Sources */,
+				C6390C1C3157718FC79EB37B /* CargoLading.swift in Sources */,
+				D343DD4C2E1F34D8F8322807 /* CargoModels.swift in Sources */,
+				8B70AB8F2A2906F8876A18B9 /* DockMaster.swift in Sources */,
+				0D2AA16C5E82B83A7F5945BE /* FirstWatchOnboarding.swift in Sources */,
+				7084E7C84C183ACFB5AC6690 /* HarborRootView.swift in Sources */,
+				0DA225380561E37E147FD1AB /* HarborSceneCanvas.swift in Sources */,
+				A835C68645FF35A1E65ED3F7 /* HarborStore.swift in Sources */,
+				8E7719A255560B7FE10CB4AF /* HarborViewModel.swift in Sources */,
+				68D9259C64D3499809F2ACEF /* HatchCode.swift in Sources */,
+				CFBBA33A6FC546CE4BAAB317 /* HatchScanner.swift in Sources */,
+				2C3D582E96FDA210F775D147 /* HoldInventory.swift in Sources */,
+				BA297276200B74FFAD1CED04 /* KeelSQLite.swift in Sources */,
+				46D35A7A34BD29674B862505 /* LocalHoldShelf.swift in Sources */,
+				07EAC26DEE072A64964E5B3D /* MacroDockApp.swift in Sources */,
+				B4191C5ABFEDA33FDF025177 /* ManifestLog.swift in Sources */,
+				C684019A1B68ED9796C96DFC /* OpenSeaClient.swift in Sources */,
+				39BA47ED32640D677CA300F4 /* PortionRigging.swift in Sources */,
+				6B5743D6D0B65D2448357F60 /* QuayGoals.swift in Sources */,
+				6832A3B5237647C4E58C66B9 /* QuaySearch.swift in Sources */,
+				62ED23E52851DD2CD2AD2426 /* TideDesign.swift in Sources */,
+				C97991FAB4AE5303B2B5A1DF /* VoyageDay.swift in Sources */,
+				82AA620C52FE13B4CB5ECB74 /* VoyagePlan.swift in Sources */,
+				A503052F16E9702EFCF9EE8F /* WishLedger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00270CE897DF3BB1C0C4FD23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2D4A7EE0A7EF9284376373C /* MacroDock */;
+			targetProxy = EC5989B438710179708476DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24BDDE9DC78C50A2A1D795AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrodock.harbor.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacroDock.app/MacroDock";
+			};
+			name = Debug;
+		};
+		3F0A74E24F03FB3849BE1CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacroDock;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "MacroDock reads barcodes to check cargo into the pantry manifest.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = mdk_background;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrodock.harbor;
+				PRODUCT_NAME = MacroDock;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		802D8E8DD05E0889D63B802D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		C863C41E9AA947B2AF80D51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrodock.harbor.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacroDock.app/MacroDock";
+			};
+			name = Release;
+		};
+		DD267E4D7F90B11D1FB07191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacroDock;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "MacroDock reads barcodes to check cargo into the pantry manifest.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = mdk_background;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.macrodock.harbor;
+				PRODUCT_NAME = MacroDock;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF2B4653095A9636B5AB43DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03E86F352B763B43A93D887 /* Build configuration list for PBXNativeTarget "MacroDock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0A74E24F03FB3849BE1CE1 /* Debug */,
+				DD267E4D7F90B11D1FB07191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D20BB49F6E69F16A4234632D /* Build configuration list for PBXNativeTarget "MacroDockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BDDE9DC78C50A2A1D795AE /* Debug */,
+				C863C41E9AA947B2AF80D51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F2C506FB3BC41C2FD3F08780 /* Build configuration list for PBXProject "MacroDock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802D8E8DD05E0889D63B802D /* Debug */,
+				EF2B4653095A9636B5AB43DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DAB874042AA1724F225DA2A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+		7EB7C51126725E400BCC6AC3 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8431146CE15A5657EDBAE7A6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DAB874042AA1724F225DA2A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DF2DF66BD8DCAAB2F41148F7 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EB7C51126725E400BCC6AC3 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA057A95248A074D6E407799 /* Project object */;
+}
