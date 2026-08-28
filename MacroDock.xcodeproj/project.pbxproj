@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99394F4A6325DB82FEE5E07F /* ContactWebSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46128F3B39A37C444A9E0A8 /* ContactWebSheet.swift */; };
-		E18637681E66BF869721402F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E38923242EE9B7DD59738E /* AppDelegate.swift */; };
-		227AEF0943EB8F5E30972AC6 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEF4207E3D9C7A92502091D /* APIConfig.swift */; };
 		07EAC26DEE072A64964E5B3D /* MacroDockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06500B2F9C6ADE2ED0E92C4D /* MacroDockApp.swift */; };
 		0D2AA16C5E82B83A7F5945BE /* FirstWatchOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570027867E78B4D4226BAA24 /* FirstWatchOnboarding.swift */; };
 		0DA225380561E37E147FD1AB /* HarborSceneCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EF7955FD7C66A30BE18C8D /* HarborSceneCanvas.swift */; };
+		0E1B87148E532F8DF6218032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDFEF2751FE1BA45808C58B /* AppDelegate.swift */; };
 		2C3D582E96FDA210F775D147 /* HoldInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD583B90C15FCD94B9FFBB2 /* HoldInventory.swift */; };
 		39BA47ED32640D677CA300F4 /* PortionRigging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AB67E8CFCE1D927FDE4538 /* PortionRigging.swift */; };
 		40A81A0FB3D76010837302D1 /* MacroDockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C48CC97E4550718D7A77E /* MacroDockTests.swift */; };
@@ -26,6 +24,7 @@
 		82AA620C52FE13B4CB5ECB74 /* VoyagePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6249F8B36A478AA3A21C8A9 /* VoyagePlan.swift */; };
 		8B70AB8F2A2906F8876A18B9 /* DockMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DE270AF5F85ACBC0D34158 /* DockMaster.swift */; };
 		8E7719A255560B7FE10CB4AF /* HarborViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233028F4699610AFF1E85C5 /* HarborViewModel.swift */; };
+		8E98AA9A30749553A475F309 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1B9C11F4F0E1CC3D6F906F8F /* Alamofire */; };
 		A503052F16E9702EFCF9EE8F /* WishLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA9739B84B176AF06EC08E6 /* WishLedger.swift */; };
 		A5E919D5DC7347685AA81728 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = DF2DF66BD8DCAAB2F41148F7 /* Algorithms */; };
 		A835C68645FF35A1E65ED3F7 /* HarborStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27EA117F35EE259CB4BF863 /* HarborStore.swift */; };
@@ -36,6 +35,8 @@
 		C97991FAB4AE5303B2B5A1DF /* VoyageDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A6C6703B7C1377B78F2E4 /* VoyageDay.swift */; };
 		CFBBA33A6FC546CE4BAAB317 /* HatchScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78219497AFCA965CC2B5953 /* HatchScanner.swift */; };
 		D343DD4C2E1F34D8F8322807 /* CargoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143EF14AE7B344B67ED6183F /* CargoModels.swift */; };
+		D4481062C89EBCD7C40AFD9F /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7E68141D9E1EE44F27FEB /* APIConfig.swift */; };
+		DE9BF09EFD659412C04E6877 /* ContactWebSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2A7BF1E30208333ACA17A /* ContactWebSheet.swift */; };
 		F2917513683521477FA4E06E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E85FC6A071B1F171645DC84E /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -50,9 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B46128F3B39A37C444A9E0A8 /* ContactWebSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWebSheet.swift; sourceTree = "<group>"; };
-		20E38923242EE9B7DD59738E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCEF4207E3D9C7A92502091D /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
 		0071542EBE5316375C8657D5 /* HarborRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborRootView.swift; sourceTree = "<group>"; };
 		06500B2F9C6ADE2ED0E92C4D /* MacroDockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroDockApp.swift; sourceTree = "<group>"; };
 		0A35ED3D98DAB273B3B94581 /* TideDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideDesign.swift; sourceTree = "<group>"; };
@@ -65,6 +63,8 @@
 		559528D889D27D077038E253 /* MacroDockTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MacroDockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		570027867E78B4D4226BAA24 /* FirstWatchOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstWatchOnboarding.swift; sourceTree = "<group>"; };
 		5CD4B70857B163207D127939 /* KeelSQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeelSQLite.swift; sourceTree = "<group>"; };
+		63E2A7BF1E30208333ACA17A /* ContactWebSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWebSheet.swift; sourceTree = "<group>"; };
+		65E7E68141D9E1EE44F27FEB /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
 		668434E3DAC7801F41632EDA /* MacroDock.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MacroDock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		786A6C6703B7C1377B78F2E4 /* VoyageDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageDay.swift; sourceTree = "<group>"; };
 		7E96C98294AE89BC039BC7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +79,7 @@
 		E6DE270AF5F85ACBC0D34158 /* DockMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockMaster.swift; sourceTree = "<group>"; };
 		E85FC6A071B1F171645DC84E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ECA9739B84B176AF06EC08E6 /* WishLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishLedger.swift; sourceTree = "<group>"; };
+		EEDFEF2751FE1BA45808C58B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8336277FA45EA44DBF9DEA4 /* HatchCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatchCode.swift; sourceTree = "<group>"; };
 		F9BA3B6D4C2431A6C253B105 /* QuaySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuaySearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5E919D5DC7347685AA81728 /* Algorithms in Frameworks */,
+				8E98AA9A30749553A475F309 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,11 +116,11 @@
 		214316AE574D8E60A80FEF5C /* MacroDock */ = {
 			isa = PBXGroup;
 			children = (
+				65E7E68141D9E1EE44F27FEB /* APIConfig.swift */,
+				EEDFEF2751FE1BA45808C58B /* AppDelegate.swift */,
 				7E96C98294AE89BC039BC7ED /* Assets.xcassets */,
+				63E2A7BF1E30208333ACA17A /* ContactWebSheet.swift */,
 				06500B2F9C6ADE2ED0E92C4D /* MacroDockApp.swift */,
-				B46128F3B39A37C444A9E0A8 /* ContactWebSheet.swift */,
-				20E38923242EE9B7DD59738E /* AppDelegate.swift */,
-				DCEF4207E3D9C7A92502091D /* APIConfig.swift */,
 				E85FC6A071B1F171645DC84E /* PrivacyInfo.xcprivacy */,
 				129A8F7E6F5303B45A2C3C30 /* Foundation */,
 				55FAC63F9644A183F3A27583 /* Slices */,
@@ -239,8 +241,8 @@
 			);
 			name = MacroDock;
 			packageProductDependencies = (
-				8431146CE15A5657EDBAE7A6 /* Alamofire */,
 				DF2DF66BD8DCAAB2F41148F7 /* Algorithms */,
+				1B9C11F4F0E1CC3D6F906F8F /* Alamofire */,
 			);
 			productName = MacroDock;
 			productReference = 668434E3DAC7801F41632EDA /* MacroDock.app */;
@@ -271,7 +273,7 @@
 			mainGroup = E13D7AC3F95209BC27361BAC;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				9DAB874042AA1724F225DA2A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B6F69D7FA6A7959192E577F0 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				7EB7C51126725E400BCC6AC3 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -310,11 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99394F4A6325DB82FEE5E07F /* ContactWebSheet.swift in Sources */,
-				E18637681E66BF869721402F /* AppDelegate.swift in Sources */,
-				227AEF0943EB8F5E30972AC6 /* APIConfig.swift in Sources */,
+				D4481062C89EBCD7C40AFD9F /* APIConfig.swift in Sources */,
+				0E1B87148E532F8DF6218032 /* AppDelegate.swift in Sources */,
 				C6390C1C3157718FC79EB37B /* CargoLading.swift in Sources */,
 				D343DD4C2E1F34D8F8322807 /* CargoModels.swift in Sources */,
+				DE9BF09EFD659412C04E6877 /* ContactWebSheet.swift in Sources */,
 				8B70AB8F2A2906F8876A18B9 /* DockMaster.swift in Sources */,
 				0D2AA16C5E82B83A7F5945BE /* FirstWatchOnboarding.swift in Sources */,
 				7084E7C84C183ACFB5AC6690 /* HarborRootView.swift in Sources */,
@@ -377,7 +379,7 @@
 				CODE_SIGNING_REQUIRED = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -387,9 +389,9 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "MacroDock reads barcodes to check cargo into the pantry manifest.";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_UIColorName = mdk_background;
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,7 +499,7 @@
 				CODE_SIGNING_REQUIRED = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -507,9 +509,9 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "MacroDock reads barcodes to check cargo into the pantry manifest.";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_UIColorName = mdk_background;
-				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -616,14 +618,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9DAB874042AA1724F225DA2A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
-			requirement = {
-				kind = revision;
-				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
-			};
-		};
 		7EB7C51126725E400BCC6AC3 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-algorithms";
@@ -632,12 +626,20 @@
 				minimumVersion = 1.2.0;
 			};
 		};
+		B6F69D7FA6A7959192E577F0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8431146CE15A5657EDBAE7A6 /* Alamofire */ = {
+		1B9C11F4F0E1CC3D6F906F8F /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9DAB874042AA1724F225DA2A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = B6F69D7FA6A7959192E577F0 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 		DF2DF66BD8DCAAB2F41148F7 /* Algorithms */ = {
