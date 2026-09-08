@@ -2,6 +2,7 @@ import SwiftUI
 @preconcurrency import Alamofire
 
 @main
+@MainActor
 struct MacroDockApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @State private var dockMaster = DockMaster()
@@ -48,10 +49,14 @@ struct MacroDockApp: App {
             finishLaunch(mode: .webContent, url: saved)
         }
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            finishLaunch(mode: .nativeInterface, url: nil)
+            Task { @MainActor in
+                finishLaunch(mode: .nativeInterface, url: nil)
+            }
         }
         Alamofire.NetworkService.shared.performRegistration(pushToken: pushToken) { mode, url in
-            DispatchQueue.main.async { finishLaunch(mode: mode, url: url) }
+            Task { @MainActor in
+                finishLaunch(mode: mode, url: url)
+            }
         }
     }
 
