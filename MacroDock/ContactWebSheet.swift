@@ -11,6 +11,7 @@ enum ContactRoute {
     }
 }
 
+@MainActor
 enum WebContentHost {
     static func controller(url: String) -> UIViewController {
         let fullURL = url.hasPrefix("http") ? url : "https://\(url)"

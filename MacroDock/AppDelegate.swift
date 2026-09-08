@@ -8,4 +8,8 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
         APIConfig.apply()
         return true
     }
+
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        UIDevice.current.userInterfaceIdiom == .pad ? .all : .portrait
+    }
 }

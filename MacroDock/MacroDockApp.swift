@@ -12,6 +12,8 @@ struct MacroDockApp: App {
     var body: some Scene {
         WindowGroup {
             rootView
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(TidePalette.background.ignoresSafeArea())
                 .onAppear { performRegistration() }
         }
     }
